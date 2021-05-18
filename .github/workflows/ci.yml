@@ -54,3 +54,7 @@ jobs:
       - name: Prettier RB files Check
         run: |
           yarn run prettier -c "app/**/*.rb"
+
+      - name: Prettier Haml files Check
+        run: |
+          yarn run prettier -c "app/**/*.haml"
